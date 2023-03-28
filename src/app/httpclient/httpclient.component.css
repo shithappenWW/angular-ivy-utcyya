@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  gap: 2rem;
+}
+.header th:nth-child(3) {
+  margin-left: 4rem;
+}
+.header th:last-child {
+  margin-left: auto;
+}
+table {
+  min-width: 100%;
+}
+table td:nth-child(4){ 
+  text-align: center;
+}
